@@ -1,2 +1,2 @@
 payload:
-  - PROCESS-NAME,Emby.Theater
+  - PROCESS-NAME,electron.exe
