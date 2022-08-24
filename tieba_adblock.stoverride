@@ -18,7 +18,6 @@ http:
       name: 贴吧proto
       type: response
       require-body: true
-      binary-body-mode: true
       timeout: 10
       
 script-providers:
