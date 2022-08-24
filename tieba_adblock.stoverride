@@ -12,14 +12,15 @@ http:
       name: 贴吧json
       type: response
       require-body: true
+      binary-body-mode: true
       timeout: 10
-      argument:
+      
     - match: ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)
       name: 贴吧proto
       type: response
       require-body: true
+      binary-body-mode: true
       timeout: 10
-      argument:
       
 script-providers:
   贴吧json:
