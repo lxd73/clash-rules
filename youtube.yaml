@@ -1,0 +1,15 @@
+# youtube rules
+payload:
+  - DOMAIN-SUFFIX,.youtube.
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,.youtu.be
+  - DOMAIN-SUFFIX,.youtube.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,.youtube-nocookie.com
+  - DOMAIN-SUFFIX,.googlevideo.com
+  - DOMAIN-SUFFIX,.gvt2.com
+  - DOMAIN-SUFFIX,l.google.com
+  - DOMAIN-SUFFIX,.l.google.com
+  - DOMAIN-SUFFIX,.arubanetworks.com
+  - DOMAIN-SUFFIX,.ytimg.com
+  - DOMAIN-SUFFIX,.ggpht.com
