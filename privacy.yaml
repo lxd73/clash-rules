@@ -1,0 +1,6 @@
+# Clash Ruleset
+payload:
+# fikfap
+  - DOMAIN-SUFFIX,doppiocdn.com
+#stream
+  - DOMAIN-SUFFIX,52sf.ga
