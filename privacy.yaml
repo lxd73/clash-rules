@@ -4,3 +4,7 @@ payload:
   - DOMAIN-SUFFIX,doppiocdn.com
 #stream
   - DOMAIN-SUFFIX,52sf.ga
+#emby
+  - DOMAIN-KEYWORD,emby
+  - DOMAIN-KEYWORD,aaa
+  - DOMAIN-KEYWORD,misakaf
