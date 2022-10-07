@@ -1,6 +1,6 @@
 [Rule]
 # fikfap
-DOMAIN-KEYWORD,doppiocdn,DIRECT
+DOMAIN-SUFFIX,doppiocdn.com,DIRECT
 #stream
 DOMAIN-SUFFIX,52sf.ga,DIRECT
 #emby
