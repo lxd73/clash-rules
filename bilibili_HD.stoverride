@@ -4,6 +4,7 @@ desc: 开启高码率及更高画质
 http:
   mitm:
     - "api.bilibili.com"
+    - "app.bilibili.com"
   script:
     - match: https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?))
       name: biliHD
