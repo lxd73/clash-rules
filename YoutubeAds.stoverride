@@ -1,0 +1,40 @@
+name: 去除 Youtube 广告 
+desc: 去除 Youtube 广告 (IOS >= 15)
+
+#来源 https://github.com/Maasea/sgmodule/blob/master/YoutubeAds.sgmodule
+
+# > Feature
+# 删除 瀑布流、视频、搜索中出现的广告和Shorts
+# 删除 Shorts 内的视频广告
+# 删除 底部 上传 按钮
+# 增加 画中画(PIP), 后台播放 (Beta)
+# 增加 自动翻译 (Thanks @VirgilClyne)
+
+# > Note
+# 广告信息会有遗漏，可能偶现广告
+# 该模块已足够全面，无需其他规则混用，防止重写规则被破坏
+# 不支持 Mock 的客户端可以用 reject-200/reject-img 替代
+
+# > Credit 
+# @Choler & @DivineEngine & @app2smile
+
+http:
+  mitm:
+    - "*.googlevideo.com"
+    - "youtubei.googleapis.com"
+  rewrite:
+    - ^https?:\/\/([\w-]+)\.googlevideo\.com\/initplayback(\?.*oad=.+)$ - reject
+  script:
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?
+      name: youtube
+      type: response
+      require-body: true
+      timeout: 10
+      binary-mode: true
+      max-size: 3145728
+      argument:
+
+script-providers:
+  youtube:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/youtube.js
+    interval: 86400
