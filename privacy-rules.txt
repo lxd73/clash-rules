@@ -1,4 +1,3 @@
 payload:
-#ChatGPT
   - '+.ai.com'
   - '+.openai.com'
