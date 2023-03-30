@@ -1,0 +1,3 @@
+payload:
+  - '+.ai.com'
+  - '+.openai.com'
