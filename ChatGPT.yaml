@@ -1,4 +1,4 @@
 # Clash Ruleset
 payload:
-  - '+.ai.com'
-  - '+.openai.com'
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openai.com
