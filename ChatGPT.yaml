@@ -1,0 +1,4 @@
+# Clash Ruleset
+payload:
+  - '+.ai.com'
+  - '+.openai.com'
