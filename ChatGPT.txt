@@ -1,3 +1,4 @@
 payload:
   - '+.ai.com'
   - '+.openai.com'
+  - '+.sentry.io'
