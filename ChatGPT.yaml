@@ -3,3 +3,4 @@ payload:
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,claude.ai
