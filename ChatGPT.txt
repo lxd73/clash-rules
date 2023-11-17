@@ -15,3 +15,4 @@ payload:
   - '+.intercomcdn.com'
   - '+.openaiapi-site.azureedge.net'
   - '+.stripe.com'
+  - '+.openai-api.arkoselabs.com'
