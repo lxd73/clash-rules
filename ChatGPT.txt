@@ -3,3 +3,5 @@ payload:
   - '+.openai.com'
   - '+.sentry.io'
   - '+.claude.ai'
+  - '+.oaistatic.com'
+  - '+.oaiusercontent.com'
