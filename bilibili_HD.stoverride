@@ -14,5 +14,5 @@ http:
       
 script-providers:
   biliHD:
-    url: https://raw.githubusercontent.com/Sunert/Script/master/Script/BiliHD.js
+    url: https://raw.githubusercontent.com/JQWS/GuangZhuiQuanX/main/rewrite/bilibili/BiliHD.js
     interval:  86400
