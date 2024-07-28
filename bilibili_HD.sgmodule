@@ -1,6 +1,6 @@
 
 [Script]
-BiliHD.js = type=http-response,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Script/BiliHD.js
+BiliHD.js = type=http-response,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/JQWS/GuangZhuiQuanX/main/rewrite/bilibili/BiliHD.js
 
 [MITM]
 hostname = api.bilibili.com,app.bilibili.com
